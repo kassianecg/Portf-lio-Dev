@@ -1,0 +1,15 @@
+#apresentacao {
+    display: flex;
+    justify-content: center;
+    background-image: url("../assets/images/HeaderBg.png");
+    background-size: cover;
+
+
+    .apresentacao-container {
+       padding: 128px 0px 60px 0px;
+    }
+
+    #avatar {
+        margin-bottom: 132px 0px 68px 0px;
+    }
+}

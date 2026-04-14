@@ -16,8 +16,35 @@
     --gray-400: #292C34;
     --gray-500: #16181D;
     --gray-600: #0D0E11;
+
+    --font-maven-pro: 'Maven Pro', sans-serif;
+    --font-asap: 'Asap', sans-serif;
+    --font-inconsolata: 'Inconsolata', monospace;
+
+    /* Asap */
+    --title-lg: 700 56px/120% var(--font-asap);
+    --title-md: 700 24px/120% var(--font-asap);
+    --title-sm: 700 16px/120% var(--font-asap);
+
+    /* Inconsolata */
+    --subtitle: 400 20px/120% var(--font-inconsolata);
+
+    /* Maven Pro */
+    --text-md-pro: 400 16px/140% var(--font-maven-pro);
+    --text-sm-pro: 400 14px/140% var(--font-maven-pro);
 }
 
 body {
+    font: var(--text);
+    color: var(--gray-100);
     background-color: var(--gray-400);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font: inherit;
 }
