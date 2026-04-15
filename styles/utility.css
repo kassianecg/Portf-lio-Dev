@@ -1,0 +1,27 @@
+.tx-red{
+    color: var(--red);
+}
+
+.tx-lg-asap {
+    font: var(--title-lg);
+}
+
+.tx-md-asap {
+    font: var(--title-md);
+}
+
+.tx-sm-asap {
+    font: var(--title-sm);
+}
+
+.tx-subtitle {
+    font: var(--subtitle);
+}
+
+.tx-md-pro {
+    font: var(--text-md-pro);
+}
+
+.tx-sm-pro {
+    font: var(--text-sm-pro);
+}

@@ -48,3 +48,13 @@ a {
 p {
     font: inherit;
 }
+
+.container {
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
+main {
+    text-align: center;
+}
