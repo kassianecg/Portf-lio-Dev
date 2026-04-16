@@ -1,5 +1,17 @@
-.tx-red{
+.tx-red {
     color: var(--red);
+}
+
+.tx-gray-100 {
+    color: var(--gray-100);
+}
+
+.tx-gray-200 {
+    color: var(--gray-200);
+}
+
+.tx-gray-300 {
+    color: var(--gray-300);
 }
 
 .tx-lg-asap {
@@ -24,4 +36,22 @@
 
 .tx-sm-pro {
     font: var(--text-sm-pro);
+}
+
+.grid {
+    display: grid;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+
+
+.grid-cols-3 {
+    grid-template-columns: 1fr 1fr 1fr;
 }
